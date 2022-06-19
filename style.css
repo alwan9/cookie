@@ -18,30 +18,28 @@ body{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url(design/header1.jpg);
+    background-image: url(design/header3.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
-    justify-content: center;
     display: flex;
 }
 
 h3{
-  font-size: 7vw;
-  color: rgb(169, 77, 255);
+  font-size: 6vw;
+  color: rgb(184, 109, 255);
 }
 
 h4{
-  font-weight: 200;
-  font-size: 2vw;
+  font-size: 6vw;
   color: rgb(255, 255, 255);
-  z-index: 88;
+
 }
 
 .judul{
-  text-align: center;
+margin-left: 4%;
 }
 /*global text*/
 
