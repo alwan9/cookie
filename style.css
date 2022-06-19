@@ -241,6 +241,19 @@ h2{
   margin-bottom: 4%;
 }
 
+@media (max-width : 991px){
+  .nama{
+    font-size: calc(0.2rem + 0.9rem);
+  }
+  .des{
+    font-size: calc(0.2rem + 0.5rem);
+  }
+  .des1{
+    font-size: calc(0.2rem + 0.5rem);
+  }
+}
+
+
 /*konten3*/
 .konten3{
   width: 100vw;
