@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-  
   }
 
 body{
@@ -12,9 +11,7 @@ body{
     overflow-x: hidden;
 }
 
-
 /*header*/
-
 header{
     width: 100vw;
     height: 100vh;
@@ -35,7 +32,16 @@ h3{
 h4{
   font-size: 6vw;
   color: rgb(255, 255, 255);
+}
 
+@media(max-width :991px){
+  h3{
+   font-size: calc(1rem + 1.5rem);
+  }
+    
+  h4{
+    font-size: calc(1rem + 1.5rem);
+  }
 }
 
 .judul{
@@ -61,13 +67,11 @@ margin-left: 4%;
   color: rgb(169, 77, 255);
 }
 
-
 .deskripsi{
   text-align: center;
   font-size: 1.5vw;
   align-items: center;
 }
-
 
 @media (max-width: 48rem) {
   .des {
@@ -80,11 +84,13 @@ margin-left: 4%;
 .logo{
   width: 70px;
 }
+
 .nav{
   align-items: center;
   align-items: center;
   align-content: center;
 }
+
 .topnav {
   display: flex;
   overflow: hidden;
@@ -172,6 +178,7 @@ h2{
   h1{
     font-size: calc(1rem + 1rem);
   }
+    
   h2{
     font-size: calc(0.5rem + 0.5rem);
   }
@@ -189,12 +196,9 @@ h2{
   grid-template-columns:  repeat(auto-fit, minmax(400px,1fr));
  }
 
-
-
 /*konten2*/
 .konten2{
   width: 100vw;
- 
 }
 
 .slider{
@@ -204,7 +208,6 @@ h2{
   overflow-x: auto;
   margin-bottom: 10%;
 }
-
 
 .slider .item{
   height: 200px;
@@ -224,7 +227,6 @@ h2{
   font-size: 1.7rem;
   margin-top: 15px;
   display: inline-flex;
-
 }
 
 .des{
@@ -239,11 +241,9 @@ h2{
   margin-bottom: 4%;
 }
 
-
 /*konten3*/
 .konten3{
   width: 100vw;
- 
   background-color: rgb(46, 46, 46);
 }
 
@@ -254,6 +254,7 @@ h2{
   margin-right: 15%;
   height: 80%;
 }
+
 .from{
   margin-left: 15%;
   margin-top: 7px;
@@ -273,6 +274,7 @@ h2{
   width: 30px;
   margin-right: 5px;
 }
+
 .ig{
   margin-left: 5px;
   width: 30px;
