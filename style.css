@@ -38,7 +38,6 @@ h4{
   h3{
    font-size: calc(1rem + 1.5rem);
   }
-    
   h4{
     font-size: calc(1rem + 1.5rem);
   }
@@ -47,8 +46,8 @@ h4{
 .judul{
 margin-left: 4%;
 }
-/*global text*/
 
+/*global text*/
 .title{
   margin-top: 40px;
   text-align: center;
@@ -71,13 +70,6 @@ margin-left: 4%;
   text-align: center;
   font-size: 1.5vw;
   align-items: center;
-}
-
-@media (max-width: 48rem) {
-  .des {
-    font-size: calc(0.2rem + 1rem);
-  }
-
 }
 
 /*navbar*/
@@ -115,11 +107,9 @@ margin-left: 4%;
   color: rgb(169, 77, 255);
 }
 
-
 .topnav .icon {
   display: none;
 }
-
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -158,11 +148,11 @@ margin-left: 4%;
 }
 
 .teks-kanan{
-  padding: 50px;
+  padding: 35px;
 }
 
 .teks-kiri{
-  padding: 50px;
+  padding: 35px;
 }
 
 h1{
@@ -178,7 +168,6 @@ h2{
   h1{
     font-size: calc(1rem + 1rem);
   }
-    
   h2{
     font-size: calc(0.5rem + 0.5rem);
   }
@@ -198,7 +187,7 @@ h2{
 
 /*konten2*/
 .konten2{
-  width: 100vw;
+  width: 100vw; 
 }
 
 .slider{
@@ -254,10 +243,9 @@ h2{
   }
 }
 
-
 /*konten3*/
 .konten3{
-  width: 100vw;
+  width: 100vw; 
   background-color: rgb(46, 46, 46);
 }
 
