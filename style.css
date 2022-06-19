@@ -224,8 +224,9 @@ h2{
 
 .nama{
   color: rgb(255, 255, 255);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-top: 15px;
+  font-weight: 600;
   display: inline-flex;
 }
 
